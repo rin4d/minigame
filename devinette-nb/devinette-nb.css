@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+  h1 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #5d9e95;
+}
+header nav {
+    background-color: #5d9e95;
+    padding: 5px;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    padding-bottom: 3px;
+    transition: all 0.2s ease;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    padding:8px;
+    padding-top:5px;
+    padding-bottom:20px;
+    border-radius: 4px; 
+    border: 1px solid #ccc; 
+    padding: 8px; 
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #5d9e95;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
